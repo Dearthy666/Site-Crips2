@@ -1,0 +1,15 @@
+#image-container {
+    width: 200px;
+    height: 200px;
+    position: relative;
+  }
+  
+  #image {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s ease;
+  }
+  
+  .rotate {
+    transform: rotate(360deg);
+  }
